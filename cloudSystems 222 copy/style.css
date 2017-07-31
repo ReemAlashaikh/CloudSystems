@@ -1,0 +1,140 @@
+        body {
+            direction: rtl;
+            background-color: #f2f2f2e;
+            color:black;
+        }
+        
+        .header {
+            padding-right: 80px;
+            padding-top: 30px;
+            padding-bottom: 40px;
+            border-style: solid;
+            border-width: thin;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            background-color: #e6e6e6;
+            border-radius: 10px;
+        }
+        
+        .header .header-text {
+            font-size: 50px;
+        }
+        
+        .header .logo {
+            max-height: 150px;
+            float: right;
+            margin: 10px;
+        }
+        
+        .header .header-text {
+            padding-top: 12px;
+            padding-right: 10px;
+        }
+        
+        .header .menu-bar {
+            list-style-type: none;
+        }
+        
+        .header .menu-bar .navbar {
+            display: inline-block;
+            padding-right: 10px;
+            font-size: 20px;
+        }
+        
+        .content {
+            padding-right: 100px;
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        
+        .content h2 {
+           font-size: 20px;
+            color: #008080;
+        }
+        
+        .content p {
+            font-size: 18px;
+        }
+        
+        .content .contentText {
+            float: right;
+            text-align: right;
+            width: 100%;
+        }
+         .header .menu-bar ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+.header .menu-bar li {
+  font-family: 'Oswald', sans-serif;
+  height: 40px;
+  border-bottom: 1px solid #888;
+width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    float:center;
+    font-size: 25px;
+
+}
+ 
+.menu-bar a {
+  text-decoration: none;
+  color:#008080;
+  display: block;
+}
+.button {
+    background-color: #008080;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    clear: both;
+    position: relative;
+    background-color: #898787;
+    height: 200px;
+    display: block;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#footerright {
+    color:#e6e6e6;
+    float:right;
+    text-align: justify;
+    font-size:15px;
+    width:500px;
+}
+#footerleft {
+    color:white;
+    float:left;
+    font-size:15px;
+    padding-left: 100px;
+}
+
+#bottom {
+    padding-top: 90px;
+}
+.image{
+    width: 1000px;
+    align-content: center;
+    border-radius: 10px;
+}
